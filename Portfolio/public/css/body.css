@@ -1,0 +1,150 @@
+*{
+    font-family: Blorado, sans-serif;
+}
+
+body::before {
+    content: "";
+    height: 100vh;
+    width: 100vw;
+    position: fixed;
+    z-index: -1;
+    background: 
+    linear-gradient(rgba(0, 0, 0, 0.1) 1px, transparent 1px) center,
+    linear-gradient(90deg, rgba(0, 0, 0, 0.1) 1px, transparent 1px) center;
+    background-size: 95px 95px;
+    transition: all 0.5s linear 0s;
+}
+
+body::after {
+    background-image: 
+        radial-gradient(at 40% 40%, rgb(30, 144, 255) 0px, transparent 50%), 
+        radial-gradient(at 90% 10%, rgb(255, 105, 180) 0px, transparent 50%), 
+        radial-gradient(at 50% 95%, rgb(0, 255, 255) 0px, transparent 50%), 
+        radial-gradient(at 20% 30%, rgb(50, 205, 50) 0px, transparent 50%), 
+        radial-gradient(at 90% 90%, rgb(255, 255, 0) 0px, transparent 50%), 
+        radial-gradient(at 33% 50%, rgb(255, 69, 0) 0px, transparent 50%), 
+        radial-gradient(at 79% 53%, rgb(128, 0, 128) 0px, transparent 50%);
+    position: fixed;
+    content: "";
+
+    z-index: -1;
+    width: 100%;
+    height: 100%;
+    filter: blur(100px) saturate(100%);
+    top: 0px;
+    opacity: 0.1;
+    transform: translateZ(0px);
+}
+footer {
+    position: fixed;
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    width: 100%;
+    padding: 0px;
+    height: 60px;
+    bottom: 0px;
+}
+
+footer ul {
+    list-style: none;
+}
+
+footer ul li {
+    display: inline-block;
+    padding-left: 50px;
+}
+
+footer a {
+    text-decoration: none;
+    color: rgba(100,100,100, 0.95);
+    font-size: 20px;
+}
+.fili {
+    position: fixed;
+    bottom: 5%;
+    right: 5%;
+    font-size: 3.5em;
+    font-weight: bold;
+    color: rgba(0, 0, 0, 0.15);
+    pointer-events: none; 
+    opacity: 0.4;
+  }
+  .fili2 {
+    position: fixed;
+    top: 25%;
+    left: -3%;
+    transform: rotate(35deg);
+    font-size: 10.5em;
+    font-weight: bold;
+    color: rgba(0, 0, 0, 0.15);
+    pointer-events: none; 
+    opacity: 0.4;
+  }
+  .fili3 {
+    position: fixed;
+    top: 25%;
+    right: 1%;
+    transform: rotate(35deg);
+    font-size: 10.5em;
+    font-weight: bold;
+    color: rgba(0, 0, 0, 0.15);
+    pointer-events: none; 
+    opacity: 0.4;
+  }
+  .fili4 {
+    position: fixed;
+    top: -1%;
+    left: 43%;
+    font-size: 10.5em;
+    font-weight: bold;
+    color: rgba(0, 0, 0, 0.15);
+    pointer-events: none; 
+    opacity: 0.4;
+  }
+  .fili5 {
+    position: fixed;
+    bottom: -1%;
+    left: 43%;
+    font-size: 12.5em;
+    font-weight: bold;
+    color: rgba(0, 0, 0, 0.15);
+    pointer-events: none; 
+    opacity: 0.4;
+    transform: rotate(35deg);
+  }
+body.dark {
+    color: rgba(250,250,250, 0.95) !important;
+    background-color: rgba(0, 0, 0, 0.8) !important;
+}
+body.dark .text a, body.dark .text h1{
+    color: whitesmoke;
+}
+
+body.dark footer a, body.dark .theme, body.dark .texte, body.dark .prev, body.dark .next{
+    color: rgba(250,250,250, 0.95);
+}
+body.dark .dot{
+    background-color: rgba(250,250,250, 0.95);
+}
+body.dark .dot.active,
+body.dark .dot:hover {
+    background-color: #F07167;
+}
+body.dark .texte a{
+    color: #F07167;
+}
+body.dark .connect li a {
+    color: rgba(250,250,250, 0.95);
+}
+
+body.dark .nv a:hover {
+    border-bottom: 3px solid whitesmoke;
+}
+body.dark .fili {
+    color: whitesmoke;
+}
+.menu-link.active {
+    font-weight: bold;
+    border-bottom: 2px solid;
+  }

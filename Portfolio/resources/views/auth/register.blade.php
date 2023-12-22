@@ -1,9 +1,4 @@
 <x-guest-layout>
-    <div id="log">
-      <h2 style="font-size: 7.5em; text-align: center; color: #F07167; transform: rotate(0deg)">
-         <i class="fa-brands fa-dev"></i>
-      </h2>
-    </div>
     <div id="log2">
         <form method="POST" action="{{ route('register.store') }}">
          @csrf

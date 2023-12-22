@@ -1,26 +1,21 @@
 <!DOCTYPE html>
-<html lang="{{ str_replace('_', '-', app()->getLocale()) }}">
+<html lang="en">
 
 <head>
-    <meta charset="utf-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1">
-    <meta name="csrf-token" content="{{ csrf_token() }}">
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
     <script src="https://kit.fontawesome.com/db2bf29261.js" crossorigin="anonymous"></script>
-    <title>{{ config('app.name', 'Laravel') }}</title>
-
-    <!-- Fonts -->
     <link rel="stylesheet" href="/css/nav.css">
-    <link rel="stylesheet" href="/css/contact.css">
     <link rel="stylesheet" href="/css/body.css">
-    <link rel="preconnect" href="https://fonts.bunny.net">
-    <link href="https://fonts.bunny.net/css?family=figtree:400,500,600&display=swap" rel="stylesheet" />
-    <!-- Scripts -->
-    @vite(['resources/css/app.css', 'resources/js/app.js'])
-
+    <link rel="stylesheet" href="/css/app.css">
+    <link rel="stylesheet" href="/css/contact.css">
+    <link rel="stylesheet" href="/css/project.css">
+    <link rel="stylesheet" href="/css/about.css">
+    <title>My portfolio</title>
 </head>
-
 <body class="light">
-    <header>
+<header>
         <nav class="navbar">
             <div class="connection">
                 <ul class="connect">
@@ -36,11 +31,9 @@
             </div>
         </nav>
     </header>
-    <div id="lock">
-
-            {{ $slot }}
-        
-    </div>
+    <main>
+        @yield('content')
+    </main>
     <footer>
         <ul>
             <li><a href="/"><i class="fa-brands fa-linkedin"></i></a></li>
@@ -56,6 +49,7 @@
     </footer>
     <script src="{{ asset('js/theme.js') }}"></script>
     <script src="{{ asset('js/active_link.js') }}"></script>
+    <script src="{{ asset('js/slide.js') }}"></script>
 </body>
 
 </html>
