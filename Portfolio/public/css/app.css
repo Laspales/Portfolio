@@ -1,0 +1,62 @@
+
+.text {
+    position: absolute;
+    top: 17%;
+    left: 10%;
+    color: rgba(100,100,100, 0.95);
+    padding-top: 50px;
+    width: 800px;
+    text-align: justify;
+    font-size: 1.5em;
+    opacity: 1;
+}
+
+.text a {
+    text-decoration: none;
+    color: black;
+}
+
+.text h1 {
+    color: black;
+    font-weight: bold;
+}
+
+#arrow {
+    position: absolute;
+    animation: slide 2s linear infinite;
+}
+
+.delay1 {
+    animation-delay: 1s;
+}
+
+.delay2 {
+    animation-delay: 2s;
+}
+
+.delay3 {
+    animation-delay: 3s;
+}
+
+@keyframes slide {
+    0% {
+        opacity: 0;
+        transform: translateX(0vw);
+    }
+
+    40% {
+        opacity: 1;
+        transform: translateX(1vw);
+    }
+
+    80% {
+        opacity: 1;
+        transform: translateX(2vw);
+    }
+
+    100% {
+        opacity: 0;
+        transform: translateX(2.5vw);
+    }
+}
+

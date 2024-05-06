@@ -1,0 +1,85 @@
+
+#lock {
+    position: absolute;
+    top: 28%;
+    left: 10%;
+    padding: 0;
+    margin: 0;
+    width: 750px;
+    height: 320px;
+
+}
+
+#log {
+    width: 200px;
+    height: 170px;
+    padding-left: 15px;
+    position: absolute;
+    top: 23%;
+    left: 20%;
+ 
+}
+
+#log p {
+    text-align: left;
+    width: 170px;
+    color: darkslategray;
+}
+
+#log h2 {
+    font-family: Time New Roman, sans-serif;
+    color: rgba(0, 0, 0, 0.8);
+}
+
+#log2 {
+    font-family: Time New Roman, sans-serif;
+    font-size: 12px;
+    border: 1px solid rgba(0, 0, 0, 0.2);
+    width: 500px;
+    height: 400px;
+    padding: 15px;
+    color: whitesmoke;
+    background-color: #333;
+    box-shadow: 6px 6px 25px rgba(0, 0, 0, 0.9);
+    position: absolute;
+    top: -14%;
+    left: 46.5%;
+}
+
+#email,
+#name,
+#message {
+    width: 100%;
+    border-style: none;
+    border-radius: 0;
+    border-bottom: 3px solid #F07167;
+    color: whitesmoke;
+    background-color: #333;
+    box-shadow: none;
+    
+}
+
+#send {
+    background-color: whitesmoke;
+    color: black;
+    position: absolute;
+    bottom: 3%;
+}
+
+
+body.dark #log2 {
+    color: #333;
+    background-color: whitesmoke;
+    box-shadow: 6px 6px 25px rgba(20, 20, 20, 0.9);
+}
+
+body.dark #email,
+body.dark #name,
+body.dark #message {
+    color: #333;
+    background-color: whitesmoke;
+}
+body.dark #send{
+    background-color: #333;
+    color: whitesmoke;
+}
