@@ -17,14 +17,14 @@
 <body class="light">
 <header>
         <nav class="navbar">
-            <div class="connection">
+            <div class="connection"> 
                 <ul class="connect">
                 <li class="logo"><a href="{{ route('main') }}">
                             <i class="fa-solid fa-chevron-left"></i>Code<span id="to" style="color: #F07167">2</span>Work/
                             <i class="fa-solid fa-chevron-right"></i>
                         </a></li>
-                    <li class="nv"><a href="{{ route('aboutme') }}" class="menu-link">About me</a></li>
-                    <li class="nv"><a href="{{ route('projects') }}" class="menu-link">Projects</a></li>
+                    <li class="nv"><a href="{{ route('aboutme') }}" class="menu-link">À propos de moi</a></li>
+                    <li class="nv"><a href="{{ route('projects') }}" class="menu-link">Mes projets</a></li>
                     <li class="nv"><a href="{{ route('register') }}" class="menu-link">Contact</a></li>
                     <li class="theme"><i class="fa-solid fa-circle-half-stroke"></i></li>
                 </ul>
@@ -36,10 +36,10 @@
     </main>
     <footer>
         <ul>
-            <li><a href="/"><i class="fa-brands fa-linkedin"></i></a></li>
-            <li><a href="/"><i class="fa-brands fa-github"></i></a></li>
-            <li><a href="/"><i class="fa-brands fa-instagram"></i></a></li>
-            <li><a href="/"><i class="fa-solid fa-file-code"></i></a></li>
+            <li><a href="https://www.linkedin.com/in/laspales-epalla-ndjalla-9a5555254" target="_blank"><i class="fa-brands fa-linkedin"></i></a></li>
+            <li><a href="/"><i class="fa-brands fa-github" target="_blank"></i></a></li>
+            <li><a href="/"><i class="fa-brands fa-instagram" target="_blank"></i></a></li>
+            <li><a href="/"><i class="fa-solid fa-file-code" target="_blank"  > </i></a></li>
         </ul>
         <div class="fili">WMYC'</div>
         <div class="fili2"><i class="fa-solid fa-code"></i></div>
