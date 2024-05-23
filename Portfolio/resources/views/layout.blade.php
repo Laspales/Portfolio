@@ -37,8 +37,8 @@
     <footer>
         <ul>
             <li><a href="https://www.linkedin.com/in/laspales-epalla-ndjalla-9a5555254" target="_blank"><i class="fa-brands fa-linkedin"></i></a></li>
-            <li><a href="/"><i class="fa-brands fa-github" target="_blank"></i></a></li>
-            <li><a href="/"><i class="fa-brands fa-instagram" target="_blank"></i></a></li>
+            <li><a href="https://github.com/Laspales"  target="_blank"><i class="fa-brands fa-github"></i></a></li>
+            <li><a href="https://www.instagram.com/"  target="_blank"><i class="fa-brands fa-instagram"></i></a></li>
             <li><a href="/"><i class="fa-solid fa-file-code" target="_blank"  > </i></a></li>
         </ul>
         <div class="fili">WMYC'</div>
