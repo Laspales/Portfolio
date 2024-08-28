@@ -36,10 +36,9 @@
     </main>
     <footer>
         <ul>
-            <li><a href="/"><i class="fa-brands fa-linkedin"></i></a></li>
-            <li><a href="/"><i class="fa-brands fa-github"></i></a></li>
-            <li><a href="/"><i class="fa-brands fa-instagram"></i></a></li>
-            <li><a href="/"><i class="fa-solid fa-file-code"></i></a></li>
+            <li><a href="https://www.linkedin.com/in/laspales-epalla-ndjalla-9a5555254/"><i class="fa-brands fa-linkedin"></i></a></li>
+            <li><a href="https://github.com/Laspales"><i class="fa-brands fa-github"></i></a></li>
+            <li><a href="/pdf/CV_Laspales_Epalla .pdf"><i class="fa-solid fa-file-code"></i></a></li>
         </ul>
         <div class="fili">WMYC'</div>
         <div class="fili2"><i class="fa-solid fa-code"></i></div>
